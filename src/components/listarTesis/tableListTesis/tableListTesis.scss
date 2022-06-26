@@ -1,0 +1,162 @@
+.content-table{
+    width: 100%;
+    // background-color: aquamarine;
+    height: 100%;
+}
+.table-list-tesis{
+    width: 100%;
+ 
+}
+.title-table{
+    color: #9FA2B4;
+}
+
+.avatar{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    // background-color: aqua;
+    
+}
+.avatar img{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.data-autor{
+    display: flex;
+    flex-direction: column;
+}
+.detalle{
+    display: flex;
+}
+
+.data-autor .title{
+    color: #252733;
+    font-weight: 500;
+    font-size: 14px;
+}
+.data-autor .date-publicacion{
+    font-size: 12px;
+    color: #C5C7CD;
+}
+
+// date autor
+.date-autor .neme-autor{
+    
+    color: #252733;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.date-autor .neme-fechaAutor{
+    color: #C5C7CD;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    // background-color: rebeccapurple;
+    color: #252733;
+    font-weight: 500;
+    font-size: 14px;
+}
+.edit-data .edita-icon{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+}
+
+.edit-data .edita-fecha{
+    margin-left: auto;
+    margin-right: auto;
+    color: #C5C7CD;
+}
+
+// descarga
+.data-descarga{
+    display: flex;
+    justify-content: center;
+}
+.heigh{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+.normal{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: #29CC97;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+
+}
+
+.low{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    width: 50px;
+    background-color: #FEC400;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+
+}
+
+
+
+// ---------------
+.icon-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.icon-option .option svg{
+    height: 20px;
+    width: 20px;
+    // background-color: rebeccapurple;
+}
+
+// pagination
+.content-pagination{
+    bottom: 5px;
+    // left: 20px;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    width: 99%;
+    color: #9FA2B4;
+    // background-color: yellow;
+}
+.content-pagination svg{
+    margin-left: 20px;
+    height: 20px;
+    width: 20px;
+}
+.content-pagination .pagination-1{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+// ------------
